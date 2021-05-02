@@ -14,7 +14,7 @@ function Portfolio() {
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={Portfolio} />
         <Route path="/legalNotice.html" component={LegalNotice} />
