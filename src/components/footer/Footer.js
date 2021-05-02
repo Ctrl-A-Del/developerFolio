@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import "./Footer.css";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const {isDark} = useContext(StyleContext);
@@ -12,7 +13,7 @@ export default function Footer() {
           {emoji("Made with ❤️ by Saad Pasta")}
         </p> */}
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          <a href="/legal-notice">Legal Notice</a>
+          <Link to="/legal-notice">Legal Notice</Link>
         </p>
       </div>
     </Fade>
