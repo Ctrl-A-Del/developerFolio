@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.3183946a.chunk.css",
-    "main.js": "/static/js/main.0053d26f.chunk.js",
-    "main.js.map": "/static/js/main.0053d26f.chunk.js.map",
+    "main.js": "/static/js/main.140c787e.chunk.js",
+    "main.js.map": "/static/js/main.140c787e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f6bf35f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.f6bf35f9.js.map",
-    "static/js/2.9ac350c1.chunk.js": "/static/js/2.9ac350c1.chunk.js",
-    "static/js/2.9ac350c1.chunk.js.map": "/static/js/2.9ac350c1.chunk.js.map",
+    "static/js/2.70262857.chunk.js": "/static/js/2.70262857.chunk.js",
+    "static/js/2.70262857.chunk.js.map": "/static/js/2.70262857.chunk.js.map",
     "static/css/3.f46043c1.chunk.css": "/static/css/3.f46043c1.chunk.css",
     "static/js/3.fa859d2a.chunk.js": "/static/js/3.fa859d2a.chunk.js",
     "static/js/3.fa859d2a.chunk.js.map": "/static/js/3.fa859d2a.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.faea9707.chunk.js": "/static/js/4.faea9707.chunk.js",
     "static/js/4.faea9707.chunk.js.map": "/static/js/4.faea9707.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c9764f51f16bf3f30c9b41c63b7c8572.js": "/precache-manifest.c9764f51f16bf3f30c9b41c63b7c8572.js",
+    "precache-manifest.2ca059914b6dc8452d2e1d1d4c890a27.js": "/precache-manifest.2ca059914b6dc8452d2e1d1d4c890a27.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.f46043c1.chunk.css.map": "/static/css/3.f46043c1.chunk.css.map",
     "static/css/4.3e7d09e6.chunk.css.map": "/static/css/4.3e7d09e6.chunk.css.map",
     "static/css/main.3183946a.chunk.css.map": "/static/css/main.3183946a.chunk.css.map",
-    "static/js/2.9ac350c1.chunk.js.LICENSE.txt": "/static/js/2.9ac350c1.chunk.js.LICENSE.txt",
+    "static/js/2.70262857.chunk.js.LICENSE.txt": "/static/js/2.70262857.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/cambridge.pdf": "/static/media/cambridge.af1d53af.pdf",
     "static/media/cambridge.png": "/static/media/cambridge.c54be875.png",
@@ -37,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f6bf35f9.js",
-    "static/js/2.9ac350c1.chunk.js",
+    "static/js/2.70262857.chunk.js",
     "static/css/main.3183946a.chunk.css",
-    "static/js/main.0053d26f.chunk.js"
+    "static/js/main.140c787e.chunk.js"
   ]
 }
