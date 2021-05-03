@@ -17,10 +17,10 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
-        <Switch>
-          <Route exact path="/" component={Portfolio} />
-          <Route path="/legal-notice" component={LegalNotice} />
-        </Switch>
+      <Switch>
+        <Route exact path="/" component={Portfolio} />
+        <Route path="/legal-notice" component={LegalNotice} />
+      </Switch>
     </Router>
   );
 }

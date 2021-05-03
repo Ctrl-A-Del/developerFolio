@@ -33,7 +33,7 @@ export default class LegalNotice extends Component {
         <StyleProvider
           value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
         >
-          <Header/>
+          <Header />
           <LegalNoticeText />
           <Footer />
           <Top />

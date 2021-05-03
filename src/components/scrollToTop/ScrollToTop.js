@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
+import React, {Component} from "react";
+import {withRouter} from "react-router-dom";
 
 class ScrollToTop extends Component {
   componentDidUpdate(prevProps) {
@@ -11,4 +11,4 @@ class ScrollToTop extends Component {
     return <React.Fragment />;
   }
 }
-export default withRouter(ScrollToTop); 
+export default withRouter(ScrollToTop);

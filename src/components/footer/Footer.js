@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import "./Footer.css";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function Footer() {
   const {isDark} = useContext(StyleContext);
