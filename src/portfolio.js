@@ -255,7 +255,7 @@ const achievementSection = {
     {
       title: "GitLab Certified Associate",
       subtitle:
-        "Certification of proficiencty to use GitLab and its' DevOps tools",
+        "Certification of proficiency to use GitLab and its DevOps tools",
       image: require("./assets/images/gitlab.png"),
       footerLink: [
         {
