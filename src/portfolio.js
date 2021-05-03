@@ -45,7 +45,7 @@ const skillsSection = {
     emoji(
       "⚡ Investigating Data Visualisation and Game Development in Virtual Reality using Unity"
     ),
-    emoji("⚡ Experimenting with self hosting and studying DevOps techniques")
+    emoji("⚡ Experimenting with self-hosting and studying DevOps techniques")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -113,7 +113,7 @@ const educationInfo = {
       desc: "Final score: 1.2",
       descBullets: [
         "focussed on scientific work and virtual reality",
-        "masters thesis about graph visualisation"
+        "master's thesis about graph visualisation"
       ]
     },
     {
@@ -124,7 +124,7 @@ const educationInfo = {
       desc: "Final score: 1.6",
       descBullets: [
         "focussed on web and mobile development",
-        "bachelors thesis about eyetracking"
+        "bachelor's thesis about eyetracking"
       ]
     }
   ]
@@ -207,7 +207,7 @@ const bigProjects = {
       image: require("./assets/images/logo_fkk_covid_300x300.png"),
       projectName: "Support Your Local Heroes",
       projectDesc:
-        "Non profit t-shirt online shop during COVID. All profits went directly to local retailers in Mönchengladbach.",
+        "Non-profit t-shirt online shop during COVID-19. All profits went directly to local retailers in Mönchengladbach.",
       footerLink: [
         {
           name: "Visit Website",
@@ -242,7 +242,7 @@ const achievementSection = {
     {
       title: 'Award Winner "Rheinland Genial"',
       subtitle:
-        'Our project "Support Your Local Heroes" has won the award "Rheinland Genial" for the innovative idea during the COVID pandemic.',
+        'Our project "Support Your Local Heroes" has won the award "Rheinland Genial" for the innovative idea during the COVID-19 pandemic.',
       image: require("./assets/images/rheinlandGenial.jpg"),
       footerLink: [
         {
