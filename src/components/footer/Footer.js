@@ -15,6 +15,9 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           <Link to="/legal-notice">Legal Notice</Link>
         </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          <Link to="/privacy">Privacy</Link>
+        </p>
       </div>
     </Fade>
   );
