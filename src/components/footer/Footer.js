@@ -13,15 +13,9 @@ export default function Footer() {
           {emoji("Made with ❤️ by Saad Pasta")}
         </p> */}
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          <Link className="footer-link" to="/legal-notice">
-            Legal Notice
-          </Link>
-          <Link className="footer-link" to="/privacy">
-            Privacy
-          </Link>
-          <Link className="footer-link" to="/terms-and-conditions">
-            Terms and Conditions
-          </Link>
+          <Link to="/legal-notice">Legal Notice</Link>
+          <Link to="/privacy">Privacy</Link>
+          <Link to="/terms-and-conditions">Terms and Conditions</Link>
         </p>
       </div>
     </Fade>
