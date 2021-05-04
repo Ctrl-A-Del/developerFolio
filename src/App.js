@@ -4,6 +4,7 @@ import Main from "./containers/Main";
 import Privacy from "./components/privacy/Privacy";
 import React from "react";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
+import TermsAndConditions from "./components/termsAndConditions/TermsAndConditions";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function Portfolio() {
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/" component={Portfolio} />
         <Route path="/legal-notice" component={LegalNotice} />
         <Route path="/privacy" component={Privacy} />
+        <Route path="/terms-and-conditions" component={TermsAndConditions} />
       </Switch>
     </Router>
   );

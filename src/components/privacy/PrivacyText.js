@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 export default function LegalNoticeText() {
   return (
@@ -9,9 +10,9 @@ export default function LegalNoticeText() {
         This privacy policy (&quot;Policy&quot;) describes how the personally
         identifiable information (&quot;Personal Information&quot;) you may
         provide on the{" "}
-        <a target="_blank" rel="nofollow" href="https://sebastian.auner.me">
+        <Link to="/" rel="nofollow" href="https://sebastian.auner.me">
           sebastian.auner.me
-        </a>{" "}
+        </Link>{" "}
         website (&quot;Website&quot; or &quot;Service&quot;) and any of its
         related products and services (collectively, &quot;Services&quot;) is
         collected, protected and used. It also describes the choices available
@@ -305,10 +306,7 @@ export default function LegalNoticeText() {
         you agree to be bound by this Policy. If you do not agree to abide by
         the terms of this Policy, you are not authorized to access or use the
         Website and Services. This privacy policy was created with the{" "}
-        <a
-          target="_blank"
-          href="https://www.websitepolicies.com/privacy-policy-generator"
-        >
+        <a href="https://www.websitepolicies.com/privacy-policy-generator">
           privacy policy generator
         </a>
         .
