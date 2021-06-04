@@ -7,7 +7,7 @@ export default function LegalNoticeText() {
       <h1>Terms and conditions</h1>
       <p>
         These terms and conditions (&quot;Agreement&quot;) set forth the general
-        terms and conditions of your use of the
+        terms and conditions of your use of the{" "}
         <Link to="/" rel="nofollow" href="https://sebastian.auner.me">
           sebastian.auner.me
         </Link>{" "}
