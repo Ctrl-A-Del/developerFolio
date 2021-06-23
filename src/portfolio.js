@@ -23,7 +23,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  gmail: "sebastian@auner.me",
+  gmail: "mail@sebastianauner.com",
   gitlab: "https://gitlab.com/Ctrl-A-Del",
   github: "https://github.com/Ctrl-A-Del",
   linkedin: "https://www.linkedin.com/in/sebastian-auner-a625a8160/",
@@ -355,7 +355,7 @@ const contactInfo = {
   // subtitle:
   // "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+49 170 994 0 985",
-  email_address: "sebastian@auner.me"
+  email_address: "mail@sebastianauner.com"
 };
 
 // Twitter Section
