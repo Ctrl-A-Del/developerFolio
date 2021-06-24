@@ -14,7 +14,7 @@ export default function LegalNoticeText() {
       41366 Schwalmtal
       <br />
       <h2>Contact Information</h2>
-      Telephone: 02163 978 9368
+      Telephone: +49 2163 978 9368
       <br />
       E-Mail: <a href="mailto:mail@sebastianauner.com">mail@sebastianauner.com</a>
       <br />
