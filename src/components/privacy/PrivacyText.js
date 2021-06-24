@@ -10,8 +10,8 @@ export default function LegalNoticeText() {
         This privacy policy (&quot;Policy&quot;) describes how the personally
         identifiable information (&quot;Personal Information&quot;) you may
         provide on the{" "}
-        <Link to="/" rel="nofollow" href="https://sebastian.auner.me">
-          sebastian.auner.me
+        <Link to="/" rel="nofollow" href="https://sebastianauner.com">
+          sebastianauner.com
         </Link>{" "}
         website (&quot;Website&quot; or &quot;Service&quot;) and any of its
         related products and services (collectively, &quot;Services&quot;) is

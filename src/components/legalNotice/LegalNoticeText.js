@@ -16,11 +16,11 @@ export default function LegalNoticeText() {
       <h2>Contact Information</h2>
       Telephone: 02163 978 9368
       <br />
-      E-Mail: <a href="mailto:sebastian@auner.me">sebastian@auner.me</a>
+      E-Mail: <a href="mailto:mail@sebastianauner.com">mail@sebastianauner.com</a>
       <br />
       Internet address:{" "}
-      <a href="sebastian.auner.me" target="_blank">
-        sebastian.auner.me
+      <a href="sebastianauner.com" target="_blank">
+        sebastianauner.com
       </a>
       <br />
       <br />
