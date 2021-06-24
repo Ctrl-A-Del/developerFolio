@@ -296,26 +296,30 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "Blog",
+  subtitle: "A place where I share my knowledge and hope to inspire people.",
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://notes.sebastianauner.com",
+      title: "My digital garden is a place where I grow my ideas.",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "The digital garden  focuses on the process of developing ideas and work with the garage door open."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://notes.sebastianauner.com/zettelkasten",
+      title: "What is a Zettelkasten?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "The Zettelkasten method is a workflow to create notes that you can use to increase your long term knowledge and find new insights."
+    },
+    {
+      url: "https://notes.sebastianauner.com/photoprism",
+      title: "PhotoPrism is a privacy friendly image gallery",
+      description:
+        "PhotoPrism is a software for organizing a photo gallery. Using machine learning, it indexes and structures the pictures into different albums, allows searching etc."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
