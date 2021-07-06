@@ -16,7 +16,8 @@ export default function LegalNoticeText() {
       <h2>Contact Information</h2>
       Telephone: +49 2163 978 9368
       <br />
-      E-Mail: <a href="mailto:mail@sebastianauner.com">mail@sebastianauner.com</a>
+      E-Mail:{" "}
+      <a href="mailto:mail@sebastianauner.com">mail@sebastianauner.com</a>
       <br />
       Internet address:{" "}
       <a href="sebastianauner.com" target="_blank">

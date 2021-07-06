@@ -15,6 +15,7 @@ export default class Privacy extends Component {
   }
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     if (localStorage.getItem("isDark") === null) {
       const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
       localStorage.setItem("isDark", darkPref.matches);
