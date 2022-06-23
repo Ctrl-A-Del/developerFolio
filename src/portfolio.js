@@ -301,19 +301,19 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://notes.sebastianauner.com",
+      url: "https://blog.sebastianauner.com",
       title: "My digital garden is a place where I grow my ideas.",
       description:
         "The digital garden  focuses on the process of developing ideas and work with the garage door open."
     },
     {
-      url: "https://notes.sebastianauner.com/zettelkasten",
+      url: "https://blog.sebastianauner.com/zettelkasten",
       title: "What is a Zettelkasten?",
       description:
         "The Zettelkasten method is a workflow to create notes that you can use to increase your long term knowledge and find new insights."
     },
     {
-      url: "https://notes.sebastianauner.com/photoprism",
+      url: "https://blog.sebastianauner.com/photoprism",
       title: "PhotoPrism is a privacy friendly image gallery",
       description:
         "PhotoPrism is a software for organizing a photo gallery. Using machine learning, it indexes and structures the pictures into different albums, allows searching etc."
