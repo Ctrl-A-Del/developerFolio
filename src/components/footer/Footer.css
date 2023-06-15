@@ -1,0 +1,16 @@
+.footer-text {
+  text-align: center;
+  font-size: 13px;
+  color: #222 !important;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dark-mode {
+  color: white !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}

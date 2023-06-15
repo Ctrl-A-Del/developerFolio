@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import "./Achievement.scss";
+import "./Achievement.css";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
 import {Fade} from "react-reveal";
@@ -43,7 +43,6 @@ export default function Achievement() {
                     title: card.title,
                     description: card.subtitle,
                     image: card.image,
-                    imageAlt: card.imageAlt,
                     footer: card.footerLink
                   }}
                 />

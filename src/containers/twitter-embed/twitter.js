@@ -1,5 +1,5 @@
 import React, {Suspense, useContext} from "react";
-import "./twitter.scss";
+import "./twitter.css";
 import Loading from "../loading/Loading";
 import {TwitterTimelineEmbed} from "react-twitter-embed";
 import {twitterDetails} from "../../portfolio";
@@ -23,9 +23,6 @@ export default function Twitter() {
 
   if (!twitterDetails.display) {
     return null;
-  }
-  if (!twitterDetails.userName) {
-    console.error("Twitter username for twitter section is missing");
   }
   if (twitterDetails.userName) {
     return (

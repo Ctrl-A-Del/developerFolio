@@ -26,4 +26,3 @@ yarn-error.log*
 public/profile.json
 
 *.vscode
-public/blogs.json
