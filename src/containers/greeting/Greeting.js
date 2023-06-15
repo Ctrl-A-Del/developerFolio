@@ -1,8 +1,8 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
-import "./Greeting.css";
+import emoji from "react-easy-emoji";
+import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
-import landingPersonDark from "../../assets/lottie/landingPersonDark";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -26,7 +26,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                {/* <span className="wave-emoji">{emoji("👋")}</span> */}
+                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
@@ -40,20 +40,19 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                {/* Resume Button inactive until I update my resume */}
-                {/* <Button
-                  text="See my resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
-                /> */}
+                {greeting.resumeLink && (
+                  <Button
+                    text="See my resume"
+                    newTab={true}
+                    href={greeting.resumeLink}
+                  />
+                )}
               </div>
             </div>
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie
-                animationData={isDark ? landingPersonDark : landingPerson}
-              />
+              <DisplayLottie animationData={landingPerson} />
             ) : (
               <img
                 alt="man sitting on table"
