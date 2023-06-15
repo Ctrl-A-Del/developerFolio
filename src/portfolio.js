@@ -26,7 +26,7 @@ const greeting = {
     "I'm a passionate developer who is always up for a new challenge and enjoys learning different and new technologies. I have experience in building Web and Mobile applications with JavaScript / ReactJS / Node.js, and some other awesome libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
