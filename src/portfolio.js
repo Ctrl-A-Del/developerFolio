@@ -23,7 +23,7 @@ const greeting = {
   title: "Hi, I'm Sebastian",
   subTitle: emoji(
     // "I'm a passionate developer who enjoys experimenting with different technologies. I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs and also enjoy playing around with Virtual Reality using the Unity Engine."
-    "I'm a passionate developer who is always up for a new challenge and enjoys learning different and new technologies. I have experience in building Web and Mobile applications with JavaScript / ReactJS / Node.js, and some other awesome libraries and frameworks."
+    "I'm a senior consultant and full-stack developer skilled in React, TypeScript, and modern server-side frameworks like Next.js or Java Spring Boot. By combining front-end precision with back-end scalability, I create robust applications tailored to user needs and business goals."
   ),
   resumeLink:
     "",
@@ -37,7 +37,7 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/Ctrl-A-Del",
   github: "https://github.com/Ctrl-A-Del",
   linkedin: "https://www.linkedin.com/in/sebastian-auner-a625a8160/",
-  xing: "https://www.xing.com/profile/Sebastian_Auner3",
+  // xing: "https://www.xing.com/profile/Sebastian_Auner3",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -51,11 +51,14 @@ const skillsSection = {
   title: "What I do",
   // subTitle: "Never stop learning new technologies.",
   skills: [
-    emoji("⚡ Developing web components with ReactJS and Riot.js"),
+    emoji("⚡ Developing scalable web applications using ReactJS, Next.js, and TypeScript, with a strong focus on performance and maintainability"),
     emoji(
-      "⚡ Investigating Data Visualisation and Game Development in Virtual Reality using Unity"
+      "⚡ Building robust backends with Spring Boot and Node.js, integrating RESTful APIs and ensuring seamless communication between services"
     ),
-    emoji("⚡ Experimenting with self-hosting and studying DevOps techniques")
+    emoji("⚡ Creating interactive data visualizations with tools like D3.js or Chart.js, to transform complex data into actionable insights"),
+    emoji("⚡ Designing intuitive user interfaces (UI) and enhancing user experiences (UX) with modern design principles and responsive web technologies"),
+    emoji("⚡ Driving software quality through Test-Driven Development (TDD) and frameworks like Jest, Cypress, and Mocha"),
+    emoji("⚡ Delivering iterative, high-impact solutions through Agile development methodologies, ensuring adaptability and collaborationread"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -75,7 +78,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "TypeScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -90,10 +93,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -105,6 +108,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Java Spring Boot",
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -167,10 +174,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Consultant",
+      company: "SmartConData",
+      companylogo: require("./assets/images/smartcondatalogo.png"),
+      date: "October 2023 – Present",
+      // desc:
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: ["Full Stack Development", "UX Design"]
+    },
+    {
       role: "Web Developer",
       company: "Reuter Gruppe",
       companylogo: require("./assets/images/reuter_drop.png"),
-      date: "Mai 2019 – Present",
+      date: "Mai 2019 – September 2023",
       // desc:
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: ["Frontend Web Development", "UX Design"]
@@ -311,22 +327,22 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.sebastianauner.com",
-      title: "My digital garden is a place where I grow my ideas.",
+      url: "https://notes.sebastianauner.com/",
+      title: "My notes: a place where I process my knowlegde",
       description:
-        "The digital garden  focuses on the process of developing ideas and work with the garage door open."
+        "This collection of notes focuses on the process of developing ideas and working with the garage door open."
     },
     {
-      url: "https://blog.sebastianauner.com/zettelkasten",
-      title: "What is a Zettelkasten?",
+      url: "https://notes.sebastianauner.com/docs/03-resources/01-zettelkasten/public/my-second-brain/",
+      title: "My Second Brain",
       description:
-        "The Zettelkasten method is a workflow to create notes that you can use to increase your long term knowledge and find new insights."
+        "This is the entrypoint to find out more about the idea behind the second brain."
     },
     {
-      url: "https://blog.sebastianauner.com/photoprism",
-      title: "PhotoPrism is a privacy friendly image gallery",
+      url: "https://notes.sebastianauner.com/docs/03-resources/01-zettelkasten/public/what-types-of-notes-belong-to-a-zettelkasten/",
+      title: "What Types Of Notes Belong To A Zettelkasten",
       description:
-        "PhotoPrism is a software for organizing a photo gallery. Using machine learning, it indexes and structures the pictures into different albums, allows searching etc."
+        "The Zettelkasten workflow uses different types of notes for distinct purposes. The key is to not mix these notes together because this creates a mess."
     }
   ],
   display: true // Set false to hide this section, defaults to true
